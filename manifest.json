@@ -2,7 +2,7 @@
     "name": "Upcoming Marvel Movie",
     "version": "1.0",
     "manifest_version": 3,
-    "description": "Extension to provide details of the next upcoming marvel movie",
+    "description": "Extension to provide details of the next upcoming marvel movies and TV shows",
     "action": {
         "default_popup": "index.html"
     },
