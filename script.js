@@ -35,9 +35,9 @@ document.addEventListener('DOMContentLoaded', () => {
             title.innerHTML = error;
         })
 
-    //const leaveReview = document.getElementById("review");
+    const leaveReview = document.getElementById("reviewButton");
     const donate = document.getElementById("donateButton");
-    //const reviewUrl = ""
+    const reviewUrl = "https://chromewebstore.google.com/detail/upcoming-marvel-releases/igbejccgmkpbbdfijplgobombkdcbmgk?hl=en";
     const donateUrl = "https://github.com/sponsors/zefra37?frequency=one-time"
 
     donate.addEventListener("click", () => {
@@ -45,4 +45,10 @@ document.addEventListener('DOMContentLoaded', () => {
             url: donateUrl
         });
     });
+    leaveReview.addEventListener("click", () => {
+        chrome.tabs.create({
+            url: reviewUrl
+        });
+    });
+
 })

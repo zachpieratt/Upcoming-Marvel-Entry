@@ -1,6 +1,6 @@
 {
     "name": "Upcoming Marvel Releases",
-    "version": "1.0",
+    "version": "1.1",
     "manifest_version": 3,
     "description": "Extension to provide details of the next upcoming Marvel movies and TV shows",
     "action": {
